@@ -23,7 +23,9 @@ birth_month = birth_month_from_user.strip().lower()         # Striping the white
 # List of Classes
 classes_taken = []
 classes_taken_by_user = input('What is the class code and name of your first class for this semester?: ')
-classes_taken.append(classes_taken_by_user)
+
+# TODO Finish adding to list, loop over each list item
+classes_taken.append(classes_taken_by_user)             # 
 
 print(f'Hello {name}!')             # String formatting
 
@@ -36,4 +38,5 @@ if birth_month == 'january':
 else:
     print(f'I hope you have a Happy Birthday in {birth_month.upper()} !')
 
+# TODO Add Functions for flow control
 print('End of program. Thank you')
